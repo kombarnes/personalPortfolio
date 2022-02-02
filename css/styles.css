@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 191, 207;
+  --bs-primary-rgb: 200, 0, 100;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -237,7 +237,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: black;
   text-decoration: underline;
 }
 a:hover {
@@ -6720,6 +6720,8 @@ textarea.form-control-lg {
 }
 
 .d-block {
+  font-family: 'Unica One';
+  text-transform: uppercase;
   display: block !important;
 }
 
@@ -7038,6 +7040,8 @@ textarea.form-control-lg {
 
 .flex-shrink-0 {
   flex-shrink: 0 !important;
+  font-size: 14pt;
+  font-weight: bold;
 }
 
 .flex-shrink-1 {
@@ -7360,6 +7364,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  font-family: 'Unica One';
 }
 
 .mb-1 {
@@ -7380,6 +7385,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  
 }
 
 .mb-auto {
@@ -7857,6 +7863,7 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
+
 
 .bg-body {
   --bs-bg-opacity: 1;
@@ -11324,8 +11331,8 @@ p.lead {
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  font-family: 'Unica One';
+  //text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -11337,6 +11344,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
+  font-family: 'Unica One';
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
@@ -11418,6 +11426,7 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  font-family: 'Comfortaa';
 }
 
 @media (min-width: 768px) {
@@ -11432,4 +11441,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.nav-item{
+  font-size: 20pt;
+}
+
+.main-background{
+  background-color: tan;
 }
